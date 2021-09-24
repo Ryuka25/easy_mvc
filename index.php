@@ -1,9 +1,9 @@
 <?php
 
-    include('Controllers/Etudiant.php');
+    require_once('Controllers/Router.php');
+    
+    $router = new Router();
 
-    $etudiant = new Etudiant();
-
-    $etudiant->lister();
+    $router->routeRequest();
 
 ?>

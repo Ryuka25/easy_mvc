@@ -1,6 +1,10 @@
 <?php
 
-    class m_Etudiant {
+// Models/m_etudiant.php 
+
+// Models/EtudiantManager.php
+
+    class EtudiantManager {
 
         public $id;
         public $nom;
@@ -59,9 +63,6 @@
         public function virer($_idEtudiant) {
 
         }
-
-
-
 
     }
 
